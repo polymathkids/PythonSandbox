@@ -1,7 +1,7 @@
 import random
 import string
 
-def create_word_file(num_words=100000, word_length=42, filename="wordFile.txt"):
+def create_word_file(num_words=50000, word_length=42, filename="wordFile.txt"):
     """
     Generates `num_words` unique random strings, each of length `word_length`,
     and writes them to `filename`, one per line.
@@ -28,7 +28,7 @@ def create_word_file(num_words=100000, word_length=42, filename="wordFile.txt"):
 
 
 
-def create_weighted_word_file(num_words=1000000, word_length=100, filename="weightedWords.txt"):
+def create_weighted_word_file(num_words=50000, word_length=42, filename="weightedWords.txt"):
     """
     Generates `num_words` unique random strings, each of length `word_length`,
     and writes them to `filename`, one per line.
